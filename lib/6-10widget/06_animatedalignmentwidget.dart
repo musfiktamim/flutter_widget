@@ -28,7 +28,7 @@ class _AnimatedalignmentwidgetState extends State<Animatedalignmentwidget> {
             child: FlutterLogo(
               size: 50,
             ),
-            alignment: selected ? Alignment.topLeft : Alignment.topRight,
+            alignment: selected ? Alignment.topRight : Alignment.center,
             duration: Duration(seconds: 1),
             curve: Curves.fastOutSlowIn,
           ),
